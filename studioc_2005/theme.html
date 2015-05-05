@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<style type="text/css">
+<!--
+@import url("<{$xoops_imageurl}>style.css");
+@import url("<{$xoops_imageurl}>blocks.css");
+@import url("<{$xoops_imageurl}>modules.css");
+-->
+</style>
+<script type="text/javascript">
+<!--
+if (document.layers)
+document.write('\<link rel="stylesheet" type="text/css" href="<{$xoops_imageurl}>mini.css" />');
+// this is for older mashines like Netscape 4 which will see nothing but nocss source !
+//-->
+</script>
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+<div id="header">
+<div id="headerimage"><img src="<{$xoops_imageurl}>logo.jpg" alt="logo" height="100px" width="450px" border="0" /></div>
+</div>    <!-- close header -->
+<div class="spacer">&nbsp;</div>  <!-- close spacer -->
+<div id="content">
+<div class="left">
+<div id="leftcolumn">
+<{foreach item=block from=$xoops_lblocks}>
+<div class="leftcolumn_i">
+<{include file="studioc_2005/blocks/theme_blockleft.html"}></div>
+<{/foreach}>
+</div>
+</div>  <!-- close left -->
+<div class="center<{$xoops_showrblock}>">
+<{if $xoops_showcblock == 1}>
+<div id="centerLcolumn">
+<{foreach item=block from=$xoops_clblocks}>
+<div class="centerLcolumn_i">
+<{include file="studioc_2005/blocks/theme_blockcenter_l.html"}>
+</div>
+<{/foreach}>
+</div>
+<div id="cblock">
+<{foreach item=block from=$xoops_ccblocks}>
+<div class="cblock_i">
+<{include file="studioc_2005/blocks/theme_blockcenter_c.html"}></div>
+<{/foreach}>
+</div>
+<{/if}>
+<div id="xoopscontent">
+<div class="xoopscontent_i"><{$xoops_contents}></div>
+</div>
+<div id="centerRcolumn">
+<{foreach item=block from=$xoops_crblocks}>
+<div class="centerRcolumn_i"><{include file="studioc_2005/blocks/theme_blockcenter_r.html"}></div>
+<{/foreach}>
+</div>
+</div>  <!-- close center -->
+<{if $xoops_showrblock == 1}>
+<div class="right<{$xoops_showrblock}>">
+<div id="rightcolumn">
+<{foreach item=block from=$xoops_rblocks}>
+<div class="rightcolumn_i"><{include file="studioc_2005/blocks/theme_blockright.html"}></div>
+<{/foreach}>
+</div>
+</div> 
+<!-- close class right  -->
+<{/if}>
+</div>  <!-- close content -->
+<div class="spacer">&nbsp;</div>  <!-- close spacer -->
+<div id="footer">
+<div id="footertext">STUDIOCREATIV.DE (c)2004 | <a href="http://xoops.org" target="_blank">RUNNING XOOPS V2</a> | <a href="http://xoopsfactory.de" target="_blank">XOOPSFACTORY</a> |&nbsp;</div>
+</div>  <!-- close footer -->
+</body></html>

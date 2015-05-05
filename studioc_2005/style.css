@@ -1,0 +1,152 @@
+body
+{ 	color: black; 
+	background-color: #fff; 
+	text-align: center; 
+	margin: 0px;
+	font-family: Arial, sans-serif;font-size:12px; 
+}
+a:link
+{	color: #99c;
+    	text-decoration: none;
+}
+a:visited
+{	color: #99c;
+    	text-decoration: none;
+}
+a:hover
+{	color: #999;
+  	text-decoration: underline;
+}
+
+b
+{	color:#99c;}
+h1
+{ 	color:#99c; 
+	font-weight: bold;
+    	font-size: 12px;
+    	padding:0px;margin:0px;    
+}
+hr 
+{	width:99%;
+	color:#fff;
+	height:3px;
+	border:0;
+	border-bottom:1px dotted #ccc;
+}
+img
+{	border:0px;}
+textarea 
+{	width:400px;} 
+
+#header
+{	background-color: #336;
+	background-image: url(header_right.jpg);
+	background-position:top right;
+	background-repeat: no-repeat;
+  	text-align: center;
+  	width: 100%;
+  	height: 100px;
+}
+#headerimage
+{	text-align: left;
+ 	margin-right: auto;
+    	margin-left: 0px;
+    	width: 700px;
+}
+#content
+{ 	background-color: white; 
+	font-size: 12px;
+	line-height:130%;
+	text-align: left; 
+	margin-right: auto; 
+	margin-left: auto; 
+	width: 700px; 
+	height: auto; 
+}
+.left
+{  	font-size: 12px;
+    	line-height: 120%;
+    	text-align: right;
+    	float: left;
+    	width: 140px;
+    	height: auto;
+    	padding-right: 15px;
+}
+
+
+.center0
+	{
+	border-left: 1px dotted #ccc;
+    padding: 1px 10px 3px 15px;
+    background-color: #fff;
+    float: left;
+    height: auto;
+    width: 500px;
+    }
+
+.center1
+	{
+	border-left: 1px dotted #ccc;
+    padding: 1px 10px 3px 15px;
+    background-color: #fff;
+    float: left;
+    height: auto;
+    width: 330px;
+    }
+ .center
+	{
+	border-left: 1px dotted #ccc;
+    padding: 1px 10px 3px 15px;
+    background-color: #fff;
+    float: left;
+    height: auto;
+    width: 330px;
+    }
+
+.right0
+	{
+	display:none;
+    }
+.right1
+	{
+	text-align: left;
+	font-size: 12px;
+  float: left;
+  width: 160px;
+  height: auto;
+  margin-left: 15px;
+    }
+.right
+	{
+	text-align: left;
+	font-size: 12px;
+  float: left;
+  width: 160px;
+  height: auto;
+  margin-left: 15px;
+    }
+
+.spacer
+{	clear: left;
+    	width: 100%;
+    	height: 16px;
+}
+#footer
+{	color: white;
+    	font-size: 9px;
+    	font-family: Verdana,Geneva,Arial,sans-serif;
+    	background-color: #336;
+    	text-align: right;
+    	clear: left;
+    	margin-top: 10px;
+    	padding-top: 4px;
+    	padding-bottom: 4px;
+    	width: 100%;
+}
+
+#footertext
+{	text-align: right;
+    	margin-right: auto;
+    	margin-left: auto;
+    	width: 100%;
+}
